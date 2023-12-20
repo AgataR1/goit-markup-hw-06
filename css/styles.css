@@ -16,6 +16,7 @@
   --light-slate: #8e8f99;
   --dairy: #fcfcfc;
   --navy-blue-modal: hsla(237, 18%, 22%, 0.4);
+  --white-placeholder: hsla(0, 0%, 100%, 1);
 }
 
 body {
@@ -627,4 +628,54 @@ ol {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-input {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--white);
+  gap: 16px;
+}
+.sb-input {
+  background-color: var(--navy-blue);
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
+  color: var(--white-placeholder);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.48px;
+  padding-left: 16px;
+}
+.subscribe-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  padding: 8px 24px;
+  color: var(--white);
+  text-align: center;
+  background-color: var(--iris);
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+}
+.subscribe-area {
+  display: flex;
+  gap: 24px;
+  align-items: end;
+  margin-left: 80px;
+}
+.subscribe-btn:focus,
+.subscribe-btn:hover {
+  background-color: var(--ocean);
 }
