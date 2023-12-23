@@ -445,6 +445,66 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <div>
+          <p class="modal-heading">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="modal-area" name="modal-area">
+            <div class="modal-name-div">
+              <label class="modal-name" for="user-name">Name</label>
+              <div class="input-name">
+                <input
+                  class="name-area"
+                  type="text"
+                  id="user-name"
+                  name="user-name"
+                  required
+                />
+                <svg class="person-black" width="18" height="18">
+                  <use href="./images/icons.svg#icon-person-black"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="modal-phone-div">
+              <label class="modal-phone" for="user-phone">Phone</label>
+              <div class="input-phone">
+                <input
+                  class="phone-area"
+                  type="tel"
+                  id="user-phone"
+                  name="user-phone-number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="modal-email-div">
+              <label class="modal-email" for="user-email">Email</label>
+              <div class="input-email">
+                <input
+                  class="email-area"
+                  type="email"
+                  id="user-email"
+                  name="user-email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="modal-comment-div">
+              <label class="modal-comment" for="user-comment">Comment</label>
+              <div class="input-comment">
+                <textarea
+                  class="comment-area"
+                  name="user-comment"
+                  id="user-comment"
+                  rows=""
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+            </div>
+          </form>
+          <button type="submit">Send</button>
+        </div>
+
         <button type="button" class="close-btn" data-modal-close>
           <svg class="icon-close-black" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
