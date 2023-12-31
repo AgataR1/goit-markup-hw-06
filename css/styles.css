@@ -630,6 +630,14 @@ ol {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.subscribe-heading {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
 .subscribe-input {
   display: flex;
   flex-direction: column;
@@ -715,5 +723,4 @@ ol {
 .comment-area {
   width: 360px;
   height: 120px;
-  margin-bottom: 16px;
 }
