@@ -15,9 +15,6 @@
   --green: #31d0aa;
   --light-slate: #8e8f99;
   --dairy: #fcfcfc;
-  --navy-blue-modal: hsla(237, 18%, 22%, 0.4);
-  --white-placeholder: hsla(0, 0%, 100%, 1);
-  --iris-send: hsla(235, 75%, 60%, 1);
 }
 
 body {
@@ -636,7 +633,7 @@ ol {
 }
 .send-btn {
   color: var(--white);
-  background-color: var(--iris-send);
+  background-color: var(--iris);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
