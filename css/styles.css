@@ -645,8 +645,13 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
+  display: block;
+  transform: translateX(50%);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .send-btn:hover,
@@ -703,6 +708,19 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
+}
+.checkbox-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition-property: background-color, border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 /*active link*/
