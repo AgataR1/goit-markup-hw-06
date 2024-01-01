@@ -615,7 +615,10 @@ ol {
   color: var(--navy-blue);
   margin-bottom: 16px;
 }
-.modal-name-div {
+.modal-name-div,
+.modal-phone-div,
+.modal-email-div,
+.modal-comment-div {
   margin-bottom: 8px;
 }
 .modal-name,
