@@ -680,6 +680,7 @@ ol {
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
 }
 .modal-div-comment {
   margin-bottom: 16px;
@@ -692,6 +693,16 @@ ol {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox-div {
+  margin-bottom: 24px;
+}
+.checkbox-lbl {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
 }
 
 /*active link*/
