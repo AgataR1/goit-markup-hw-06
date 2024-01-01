@@ -671,13 +671,20 @@ ol {
 }
 .comment {
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  background-color: transparent;
+  resize: none;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input-comment {
+.modal-div-comment {
   margin-bottom: 16px;
 }
-.person-black,
-.phone-icon,
-.icon-mail {
+.icon-black {
   position: absolute;
   left: 16px;
   top: 50%;
