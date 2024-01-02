@@ -696,6 +696,9 @@ ol {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.input-area:focus + .icon-black {
+  fill: var(--iris);
+}
 .checkbox-div {
   margin-bottom: 24px;
 }
@@ -718,6 +721,12 @@ ol {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.checkbox-input:checked + checkbox-lbl .checkbox-span {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 
 /*active link*/
