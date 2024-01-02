@@ -723,7 +723,7 @@ ol {
   fill: transparent;
 }
 
-.checkbox-input:checked + checkbox-lbl .checkbox-span {
+.checkbox-input:checked + .checkbox-lbl .checkbox-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
