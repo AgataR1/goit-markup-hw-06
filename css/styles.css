@@ -266,9 +266,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
-  border-bottom: 1px solid var(--cornflower);
-  flex-shrink: 0;
 }
 .menu-nav {
   display: flex;
@@ -733,7 +730,6 @@ ol {
 
 .link-active {
   position: relative;
-  overflow: hidden;
   color: var(--ocean);
   transition-property: color;
   transition-duration: 250ms;
@@ -798,6 +794,9 @@ ol {
   align-items: center;
   min-width: 165px;
   height: 40px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-frame {
   margin-left: 16px;
